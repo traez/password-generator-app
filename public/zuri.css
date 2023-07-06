@@ -140,11 +140,6 @@ ul {
 li {
   list-style: none;
   font-size: 1.2rem;
-  display: flex;
-  flex-flow: row;
-  justify-content: flex-start;
-  align-items: center;
-  gap:1rem;
 }
 input[type="checkbox"] {
   accent-color: var(--lemon-green);
@@ -195,7 +190,7 @@ article {
 span {
   height: 3rem;
   width: 1rem;
-  border: 3px solid var(--light-purple);
+  border: 3px solid var(--light-pink);
 }
 aside {
   display: flex;
@@ -209,12 +204,12 @@ aside {
   background-color: var(--lemon-green);
   color: var(--pitch-black);
 }
-aside:hover {
-  cursor: pointer;
-}
 #aside-gen {
   font-size: 1.3rem;
   font-weight: bolder;
+}
+#aside-gen:hover {
+  cursor: pointer;
 }
 #aside-icon {
   width: 5%;

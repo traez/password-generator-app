@@ -1,0 +1,77 @@
+------------------------------------------------------------------------------------------Main
+------------------------------------------------------------------------Header
+---------------------------------------------------------Aside-display (placeholder - error no selected)
+---------------------------------------------------------Div-copy Image
+------------------------------------------------------------------------Section
+---------------------------------------------------------Menu 
+----------------------------------------------Div Character length
+----------------------------------------------Div Character amount
+---------------------------------------------------------input
+---------------------------------------------------------ul
+----------------------------------------------Li X 4
+---------------------------------input checkbox X 4
+---------------------------------label X 4
+---------------------------------------------------------Article
+----------------------------------------------Nav Strength
+----------------------------------------------Nav indicator
+---------------------------------StrengthResult
+---------------------------------ol
+------------------------li X 4
+---------------------------------------------------------Button Generate
+------------------------------------------------------------------------Footer
+---------------------------------------------------------H5 PasswordGen
+---------------------------------------------------------H6 Github
+
+
+
+---------------------------------------------------------Img
+---------------------------------a
+---------------------------------form
+-----------------label
+-----------------b i em strong small
+----------------------------------------------
+Layout holds header component with  statistics
+----------------------------------------------
+https://github.com/Lordyner/password-generator-app
+https://lordyner.github.io/password-generator-app/
+Neat work, copy functionalities
+----------------------------------------------
+Here's a suggested point system for the below password criteria:
+
+1 Length: Award points based on the length of the password.
+Example: 0.5 point for every  character included
+
+2 Uppercase Letters: Award points if at least one uppercase letter is included.
+Example: 2 points
+
+3 Lowercase Letters: Award points if at least one lowercase letter is included.
+Example: 2 points
+
+4 Numbers: Award points if at least one number is included.
+Example: 2 points
+
+5 Symbols: Award points if at least one symbol is included.
+Example: 2 points
+
+6 No Character Repetition: Award points if there are no repeated characters.
+Example: 3 points
+
+7 Character Mix: Award points based on the diversity and balance of character types.
+Example: 4 points
+
+The maximum Point value, considering a maximum password length of 20 characters, would be 25.
+The minimum Point value, considering a maximum password length of 20 characters, would be 6.
+
+Very weak, 6-10
+weak, 11-15
+strong, 16-20
+very strong. 21-25
+----------------------------------------------
+learnt new Set, never used before
+
+Thanks to ChatGPT suggestions, used a bunch of JavaScript methods which so far, I hardly ever touch.
+Array.from()
+Array.prototype.includes()
+Set.prototype.has()
+Array.prototype.some()
+

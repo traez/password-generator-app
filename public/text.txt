@@ -1,0 +1,2 @@
+Refactor passwordStrength() to follow SOLID principles.
+Show only code that needs to be changed
